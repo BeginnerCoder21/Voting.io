@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<style>
+  html{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .header{
+    width: 80%;
+    background: #FFD5C8;
+    height: 120px;
+    float: left;
+  }
+  .nav{
+    height: 740px;
+    width: 20%;
+    background: white;
+    box-shadow: 3px 0px 5px rgba(0,0,0,0.5);
+    float: left;
+  }
+  .header h3{
+    color: #400005;
+    width: 500px;
+    padding: 35px 0 0 30px;
+  }
+  .nav img{
+    height: 116px;
+    width: 116px;
+    margin: 30px 0 0 60px;
+  }
+  .header img{
+    margin-right: 80px;
+    margin-top: 20px;
+    height: 85px;
+    width: 89px;
+    float: right;
+  }
+  .nav-val {
+    text-align: center;
+    font-family: Lato;
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+  .nav-val p {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  hr{
+    width: 250px;
+  }
+  .logout {
+    text-align: center;
+    font-size: 18px;
+    font-family: Lato;
+  }
+  .logout p{
+    margin-left: 90px;
+  }
+  .nav-val p:hover{
+    width: 150px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    background-color: #400005;
+    color: white;
+  }
+  .content h3{
+    float: left;
+    color: #400005;
+    width: 200px;
+    margin: 50px 0 0 30px;
+  }
+  .epi{
+    float: left;
+    width: 100px;
+    height: 40px;
+    font-family: Lato;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-top: 80px;
+    text-align: center;
+  }
+  .epi h4{
+    font-size: 20px;
+    margin: 5px 10px 10px 10px;
+    text-align: center;
+  }
+  .name{
+    float: left;
+    width: 300px;
+    height: 40px;
+    font-family: Lato;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-top: 80px;
+    text-align: center;
+  }
+  .name h4{
+    font-size: 15px;
+    margin: 5px 10px 10px 0px;
+    text-align: center;
+  }
+  .name i{
+    padding-left: 5px;
+  }
+  .name input{
+    border: 0px;
+    outline: none;
+    font-size: 17px;
+  }
+  .name span{
+    padding-left: 15px;
+  }
+  .inpu:focus{
+    border: 0px;
+    outline: none;
+  }
+  .input:hover{
+    border: 0px;
+    outline: none;
+  }
+  .msg{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: #FFD5C8;
+  }
+  .msg p{
+    padding-top: 7px;
+    color: #400005;
+    font-family: Lato;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+  }
+  .parti{
+    margin-top: 40px;
+    display: flex;
+    float: left;
+    margin-left: 100px;
+  }
+  .parti img{
+    float: left;
+    height: 89px;
+    width: 89px;
+  }
+  .parti p{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Roboto;
+    margin-top: 5px;
+    color: #002EE4;
+  }
+  .parti  button{
+    float: left;
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+    background: #D2D0D0;
+    border-radius: 20px;
+    visibility: hidden;
+  }
+  .parti button:focus{
+    outline: none;
+  }
+  .parti button:hover{
+    background-color: #115804;
+    color: white;
+  }
+  #ack{
+    float: left;
+    color: #01920F;
+    margin: 80px 0 0 400px;
+    font-size: 25px;
+    font-family: Source Sans Pro;
+  }
+  #ackn {
+    color: #022B8B;
+    font-size: 25px;
+    float: left;
+    font-family: Source Sans Pro;
+    margin: 20px 0 0 400px;
+  }
+  .name button{
+    background: white;
+    outline: none;
+    border: 0px;
+  }
+</style>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Voting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <head>
+    <meta charset="utf-8">
+   <title>Voting</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+ </head>
+ <body>
+   <div class="nav">
+     <img src="slack.png" alt="logo">
+     <div class="nav-val">
+       <p>Dashboard</p>
+       <p>Profile</p>
+       <p>Vote</p>
+       <p>Episodes</p>
+       <p>Feedback</p>
+     </div>
+     <hr>
+     <br>
+     <div class="logout">
+       <p>Logout</h3>
+     </div>
+   </div>
+   <div class="header">
+     <img src="avtar.png" alt="avtar">
+     <h3>Audience Portal</h3>
+     <div class="content">
+       <h3>Vote</h3>
+       <div class="epi">
+         <h4>E1020</h4>
+       </div>
+         <div class="name">
+           <form name="myform" method="post" action="back.php">
+           <h4><button  id="bt"><i class="fa fa-search"></i></button><span> <input type="text" id="pname" name="pname" placeholder="Enter Participant Name" value=""></span></h4>
+         </div>
+         <div class="msg">
+           <p>Please VOTE for your favourite participant</p>
+         </div>
+         <div class="parti">
+           <div class="p1">
+             <img src="p1.png" alt="pa1"> <br>
+            <p id="par_name">Amaya</p>
+            <button type="button" name="VoteB" id="vote1">Vote</button>
+          </div>
+         <div class="p2" id="p2">
+           <img src="p2.png" alt="pa2"> <br>
+           <p>Aryan</p>
+           <button type="button" name="VoteB">Vote</button>
+         </div>
+         <div class="p3" id="p3">
+           <img src="p3.png" alt="pa3"> <br>
+           <p>Abha</p>
+           <button type="button" name="VoteB">Vote</button>
+         </div>
+         <div class="p4" id="p4">
+           <img src="p4.png" alt="pa4"> <br>
+           <p>Olivia</p>
+           <button type="button" name="VoteB">Vote</button>
+         </div>
+         <br>
+         <div class="p5" id="p5">
+           <img src="p5.png" alt="pa5"> <br>
+           <p>Ashvin</p>
+           <button type="button" name="VoteB">Vote</button>
+         </div>
+         <div class="p6" id="p6">
+           <img src="p6.png" alt="pa6"> <br>
+           <p>Arhan</p>
+           <button type="button" name="VoteB">Vote</button>
+         </div>
+       </div>
+      </form>
+       <p id="ack"></p>
+       <p id="ackn"></p>
+     </div>
+   </div>
+ </body>
+</html>
